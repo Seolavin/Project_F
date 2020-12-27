@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 136122410}
   - component: {fileID: 136122412}
   - component: {fileID: 136122411}
+  - component: {fileID: 136122413}
   m_Layer: 0
   m_Name: duckgooseman
   m_TagString: Untagged
@@ -266,6 +267,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.625, y: 1.3125}
   m_EdgeRadius: 0
+--- !u!114 &136122413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136122407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cabf3e7bb4d8064eb3633a4ef0cc3c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &143797379
 GameObject:
   m_ObjectHideFlags: 0
